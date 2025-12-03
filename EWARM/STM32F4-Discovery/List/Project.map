@@ -1,0 +1,514 @@
+###############################################################################
+#
+# IAR ELF Linker V8.20.1.14183/W32 for ARM                15/Nov/2025  09:10:19
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Exe\Project.out
+#    Map file     =  
+#        C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\List\Project.map
+#    Command line =  
+#        -f C:\Users\pc\AppData\Local\Temp\EW32A.tmp
+#        ("C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\cs43l22.o"
+#        C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Middlewares\ST\STM32_Audio\Addons\PDM\Lib\libPDMFilter_CM4_IAR_wc32.a
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\lis302dl.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\lis3dsh.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\main.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\startup_stm32f407xx.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4_discovery.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie
+#        (3)\EWARM\STM32F4-Discovery\Obj\stm32f4_discovery_accelerometer.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4_discovery_audio.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_adc.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_adc_ex.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_can.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_cortex.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_crc.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_cryp.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_cryp_ex.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_dac.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_dac_ex.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_dcmi.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_dma.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_dma_ex.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_eth.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_exti.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_flash.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_flash_ex.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_gpio.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_hcd.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_i2c.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_i2s.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_i2s_ex.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_irda.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_iwdg.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_msp.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_nand.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_nor.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_pccard.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_pcd.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_pcd_ex.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_pwr.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_rcc.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_rcc_ex.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_rng.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_rtc.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_rtc_ex.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_sd.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_smartcard.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_spi.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_sram.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_tim.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_tim_ex.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_uart.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_usart.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_hal_wwdg.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_it.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_ll_fsmc.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_ll_sdmmc.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\stm32f4xx_ll_usb.o"
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Obj\system_stm32f4xx.o" --redirect
+#        _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\Exe\Project.out" --map
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\STM32F4-Discovery\List\Project.map" --config
+#        "C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates
+#        - Copie (3)\EWARM\stm32f407xx_flash.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x080fffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x20000000 to 0x2001ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A0":                                      0x188
+  .intvec            ro code  0x08000000   0x188  startup_stm32f407xx.o [1]
+                            - 0x08000188   0x188
+
+"P1":                                     0x1724
+  .text              ro code  0x08000188   0x350  stm32f4xx_hal_dma.o [1]
+  .text              ro code  0x080004d8     0xc  stm32f4xx_hal.o [1]
+  .text              ro code  0x080004e4   0x328  stm32f4xx_hal_rcc.o [1]
+  .text              ro code  0x0800080c   0x2fa  stm32f4xx_hal_uart.o [1]
+  .text              ro code  0x08000b08   0x268  main.o [1]
+  .text              ro code  0x08000d70     0x2  stm32f4xx_hal_uart.o [1]
+  .text              ro code  0x08000d72     0x2  stm32f4xx_hal_uart.o [1]
+  .text              ro code  0x08000d74   0x1a4  stm32f4xx_hal_rcc.o [1]
+  .text              ro code  0x08000f18   0x22e  I64DivMod.o [6]
+  .text              ro code  0x08001148    0x38  stm32f4xx_hal.o [1]
+  .text              ro code  0x08001180     0x6  ABImemclr4.o [6]
+  .text              ro code  0x08001188   0x208  stm32f4xx_hal_gpio.o [1]
+  .text              ro code  0x08001390    0xcc  stm32f4xx_hal_cortex.o [1]
+  .text              ro code  0x0800145c    0x86  ABImemcpy.o [6]
+  .text              ro code  0x080014e4    0x28  stm32f4xx_hal.o [1]
+  .text              ro code  0x0800150c    0x40  stm32f4xx_hal.o [1]
+  .text              ro code  0x0800154c     0x2  I64DivZer.o [6]
+  .text              ro code  0x0800154e     0x2  stm32f4xx_hal_msp.o [1]
+  .text              ro code  0x08001550    0x32  ABImemset48.o [6]
+  .text              ro code  0x08001584    0x60  system_stm32f4xx.o [1]
+  .text              ro code  0x080015e4    0x40  zero_init3.o [6]
+  .text              ro code  0x08001624    0x2c  copy_init3.o [6]
+  .text              ro code  0x08001650    0x28  data_init.o [6]
+  .text              ro code  0x08001678    0x22  fpinit_M.o [5]
+  .iar.init_table    const    0x0800169c    0x24  - Linker created -
+  .text              ro code  0x080016c0    0x20  stm32f4xx_it.o [1]
+  .text              ro code  0x080016e0    0x10  stm32f4xx_hal.o [1]
+  .text              ro code  0x080016f0    0x1e  cmain.o [6]
+  .text              ro code  0x0800170e     0x4  low_level_init.o [3]
+  .text              ro code  0x08001712     0x4  exit.o [3]
+  .text              ro code  0x08001718     0xa  cexit.o [6]
+  .text              ro code  0x08001724    0x14  exit.o [7]
+  .text              ro code  0x08001738    0x10  startup_stm32f407xx.o [1]
+  Initializer bytes  const    0x08001748    0x10  <for P2-1>
+  .text              ro code  0x08001758     0xc  cstartup_M.o [6]
+  .rodata            const    0x08001764     0x8  system_stm32f4xx.o [1]
+  .text              ro code  0x0800176c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001770     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001774     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001778     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0800177c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001780     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001784     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001788     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0800178c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001790     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001794     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001798     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0800179c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017a0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017a4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017a8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017ac     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017b0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017b4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017b8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017bc     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017c0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017c4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017c8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017cc     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017d0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017d4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017d8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017dc     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017e0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017e4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017e8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017ec     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017f0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017f4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017f8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080017fc     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001800     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001804     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001808     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0800180c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001810     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001814     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001818     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0800181c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001820     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001824     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001828     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0800182c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001830     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001834     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001838     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0800183c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001840     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001844     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001848     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0800184c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001850     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001854     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001858     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0800185c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001860     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001864     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001868     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0800186c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001870     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001874     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001878     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0800187c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001880     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001884     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001888     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0800188c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001890     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001894     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x08001898     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x0800189c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080018a0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080018a4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code  0x080018a8     0x4  startup_stm32f407xx.o [1]
+  .rodata            const    0x080018ac     0x0  zero_init3.o [6]
+  .rodata            const    0x080018ac     0x0  copy_init3.o [6]
+                            - 0x080018ac  0x1724
+
+"P2", part 1 of 3:                          0x10
+  P2-1                        0x20000000    0x10  <Init block>
+    .data            inited   0x20000000     0xc  stm32f4xx_hal.o [1]
+    .data            inited   0x2000000c     0x4  system_stm32f4xx.o [1]
+                            - 0x20000010    0x10
+
+"P2", part 2 of 3:                         0x128
+  .bss               zero     0x20000010    0xe0  main.o [1]
+  .bss               zero     0x200000f0    0x48  main.o [1]
+                            - 0x20000138   0x128
+
+"P2", part 3 of 3:                         0x400
+  CSTACK                      0x20000138   0x400  <Block>
+    CSTACK           uninit   0x20000138   0x400  <Block tail>
+                            - 0x20000538   0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x128:
+          0x20000010  0x128
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x10:
+          0x08001748   0x10
+    1 destination range, total size 0x10:
+          0x20000000   0x10
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates - Copie (3)\EWARM\STM32F4-Discovery\Obj: [1]
+    main.o                      616               296
+    startup_stm32f407xx.o       728
+    stm32f4xx_hal.o             188       12       12
+    stm32f4xx_hal_cortex.o      204
+    stm32f4xx_hal_dma.o         848
+    stm32f4xx_hal_gpio.o        520
+    stm32f4xx_hal_msp.o           2
+    stm32f4xx_hal_rcc.o       1 228
+    stm32f4xx_hal_uart.o        766
+    stm32f4xx_it.o               32
+    system_stm32f4xx.o           96       12        4
+    -------------------------------------------------
+    Total:                    5 228       24      312
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+libPDMFilter_CM4_IAR_wc32.a: [4]
+    -------------------------------------------------
+    Total:
+
+m7M_tls.a: [5]
+    fpinit_M.o                   34
+    -------------------------------------------------
+    Total:                       34
+
+rt7M_tl.a: [6]
+    ABImemclr4.o                  6
+    ABImemcpy.o                 134
+    ABImemset48.o                50
+    I64DivMod.o                 558
+    I64DivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 44
+    cstartup_M.o                 12
+    data_init.o                  40
+    zero_init3.o                 64
+    -------------------------------------------------
+    Total:                      950
+
+shb_l.a: [7]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         14        2
+    Linker created                        36    1 024
+-----------------------------------------------------
+    Grand Total:              6 254       62    1 336
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x0800169c          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x080016c0          --   Gb  - Linker created -
+?main                   0x080016f1         Code  Gb  cmain.o [6]
+AHBPrescTable           0x080015d4   0x10  Data  Gb  system_stm32f4xx.o [1]
+APBPrescTable           0x08001764    0x8  Data  Gb  system_stm32f4xx.o [1]
+BusFault_Handler        0x080016c7    0x2  Code  Gb  stm32f4xx_it.o [1]
+CSTACK$$Base            0x20000138          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000538          --   Gb  - Linker created -
+DMA2_Stream6_IRQHandler
+                        0x080016d5    0x6  Code  Gb  stm32f4xx_it.o [1]
+DMA_CalcBaseAndBitshift
+                        0x080004a5   0x2a  Code  Lc  stm32f4xx_hal_dma.o [1]
+DMA_CalcBaseAndBitshift::flagBitshiftOffset
+                        0x080004d0    0x8  Data  Lc  stm32f4xx_hal_dma.o [1]
+DMA_SetConfig           0x08000485   0x20  Code  Lc  stm32f4xx_hal_dma.o [1]
+DebugMon_Handler        0x080016cd    0x2  Code  Gb  stm32f4xx_it.o [1]
+HAL_DMA_IRQHandler      0x080002cf  0x194  Code  Gb  stm32f4xx_hal_dma.o [1]
+HAL_DMA_Init            0x08000189   0xe6  Code  Gb  stm32f4xx_hal_dma.o [1]
+HAL_DMA_Start_IT        0x0800026f   0x60  Code  Gb  stm32f4xx_hal_dma.o [1]
+HAL_Delay               0x080014e5   0x28  Code  Wk  stm32f4xx_hal.o [1]
+HAL_GPIO_Init           0x08001189  0x1be  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_TogglePin      0x08001353   0x10  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x08001347    0xc  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GetREVID            0x08001171    0x8  Code  Gb  stm32f4xx_hal.o [1]
+HAL_GetTick             0x080004d9    0xc  Code  Wk  stm32f4xx_hal.o [1]
+HAL_IncTick             0x080016e1   0x10  Code  Wk  stm32f4xx_hal.o [1]
+HAL_Init                0x08001149   0x28  Code  Gb  stm32f4xx_hal.o [1]
+HAL_InitTick            0x0800150d   0x40  Code  Wk  stm32f4xx_hal.o [1]
+HAL_MspInit             0x0800154f    0x2  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_NVIC_EnableIRQ      0x08001403   0x18  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x080013c9   0x3a  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x080013af   0x1a  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_RCC_ClockConfig     0x08000d75  0x100  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq    0x08000e81   0x10  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq    0x08000e91    0xe  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x080004e5  0x328  Code  Wk  stm32f4xx_hal_rcc.o [1]
+HAL_SYSTICK_Config      0x0800141b   0x28  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_UART_Init           0x0800080d   0x1e  Code  Gb  stm32f4xx_hal_uart.o [1]
+HAL_UART_Transmit_DMA   0x08000885   0x7a  Code  Gb  stm32f4xx_hal_uart.o [1]
+HAL_UART_TxCpltCallback
+                        0x08000d11   0x1a  Code  Gb  main.o [1]
+HardFault_Handler       0x080016c3    0x2  Code  Gb  stm32f4xx_it.o [1]
+MemManage_Handler       0x080016c5    0x2  Code  Gb  stm32f4xx_it.o [1]
+NMI_Handler             0x080016c1    0x2  Code  Gb  stm32f4xx_it.o [1]
+PendSV_Handler          0x080016cf    0x2  Code  Gb  stm32f4xx_it.o [1]
+Region$$Table$$Base     0x0800169c          --   Gb  - Linker created -
+Region$$Table$$Limit    0x080016c0          --   Gb  - Linker created -
+SVC_Handler             0x080016cb    0x2  Code  Gb  stm32f4xx_it.o [1]
+SysTick_Handler         0x080016d1    0x4  Code  Gb  stm32f4xx_it.o [1]
+SystemCoreClock         0x2000000c    0x4  Data  Gb  system_stm32f4xx.o [1]
+SystemInit              0x08001585   0x3a  Code  Gb  system_stm32f4xx.o [1]
+UART_DMAError           0x08000955   0x4a  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_DMATransmitCplt    0x08000901   0x4a  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_DMATxHalfCplt      0x0800094d    0x6  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_EndRxTransfer      0x080009dd   0x60  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_EndTxTransfer      0x080009bb   0x22  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_SetConfig          0x08000a3f   0xae  Code  Lc  stm32f4xx_hal_uart.o [1]
+UsageFault_Handler      0x080016c9    0x2  Code  Gb  stm32f4xx_it.o [1]
+__NVIC_SetPriority      0x08001391   0x1e  Code  Lc  stm32f4xx_hal_cortex.o [1]
+__aeabi_ldiv0           0x0800154d         Code  Gb  I64DivZer.o [6]
+__aeabi_memclr4         0x08001181         Code  Gb  ABImemclr4.o [6]
+__aeabi_memcpy4         0x0800145d         Code  Gb  ABImemcpy.o [6]
+__aeabi_memcpy8         0x0800145d         Code  Gb  ABImemcpy.o [6]
+__aeabi_uldivmod        0x08000f19         Code  Gb  I64DivMod.o [6]
+__cmain                 0x080016f1         Code  Gb  cmain.o [6]
+__exit                  0x08001725   0x14  Code  Gb  exit.o [7]
+__iar_Memset4_word      0x08001551         Code  Gb  ABImemset48.o [6]
+__iar_Memset8_word      0x08001551         Code  Gb  ABImemset48.o [6]
+__iar_copy_init3        0x08001625   0x2c  Code  Gb  copy_init3.o [6]
+__iar_data_init3        0x08001651   0x28  Code  Gb  data_init.o [6]
+__iar_init_vfp          0x08001679         Code  Gb  fpinit_M.o [5]
+__iar_program_start     0x08001759         Code  Gb  cstartup_M.o [6]
+__iar_systems$$module {Abs}
+                        0x00000001         Data  Gb  command line/config [2]
+__iar_zero_init3        0x080015e5   0x40  Code  Gb  zero_init3.o [6]
+__low_level_init        0x0800170f    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32f407xx.o [1]
+_call_main              0x080016fd         Code  Gb  cmain.o [6]
+_exit                   0x08001719         Code  Gb  cexit.o [6]
+_main                   0x0800170b         Code  Gb  cmain.o [6]
+dma_tx_busy             0x200000f0    0x1  Data  Lc  main.o [1]
+exit                    0x08001713    0x4  Code  Gb  exit.o [3]
+hdma_usart6_tx          0x20000010   0x60  Data  Gb  main.o [1]
+huart6                  0x200000f4   0x44  Data  Gb  main.o [1]
+main                    0x08000b33  0x1de  Code  Gb  main.o [1]
+send_dma_nonblocking    0x08000b09   0x2a  Code  Gb  main.o [1]
+tx_buf                  0x20000070   0x80  Data  Lc  main.o [1]
+uwTick                  0x20000004    0x4  Data  Gb  stm32f4xx_hal.o [1]
+uwTickFreq              0x20000000    0x1  Data  Gb  stm32f4xx_hal.o [1]
+uwTickPrio              0x20000008    0x4  Data  Gb  stm32f4xx_hal.o [1]
+
+
+[1] = C:\Users\pc\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.0\Projects\STM32F4-Discovery\Templates - Copie (3)\EWARM\STM32F4-Discovery\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = libPDMFilter_CM4_IAR_wc32.a
+[5] = m7M_tls.a
+[6] = rt7M_tl.a
+[7] = shb_l.a
+
+  6 254 bytes of readonly  code memory
+     62 bytes of readonly  data memory
+  1 336 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
