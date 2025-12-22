@@ -32,14 +32,18 @@
 
 /* Private typedef -----------------------------------------------------------*/
 extern DMA_HandleTypeDef hdma_usart6_tx;
+ extern UART_HandleTypeDef huart6;
 
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
-/* Private variables ---------------------------------------------------------*/
+/* Private variables --------------------------------------------------------*/
 
 /* Private function prototypes -----------------------------------------------*/
 
  void DMA2_Stream6_IRQHandler(void);
+ void EXTI0_IRQHandler(void);
+
+void USART6_IRQHandler(void);  /* ADD THIS LINE - Function prototype */
 
 /* Private functions ---------------------------------------------------------*/
 
@@ -162,7 +166,16 @@ void DMA2_Stream6_IRQHandler(void)
     HAL_DMA_IRQHandler(&hdma_usart6_tx);
 }
 
+void EXTI0_IRQHandler(void)
+{
+    HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_0);
+}
 
+
+void USART6_IRQHandler(void)
+{
+    HAL_UART_IRQHandler(&huart6);
+}
 /**
   * @}
   */ 
